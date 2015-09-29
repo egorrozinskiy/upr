@@ -1,4 +1,7 @@
 from random import *
-output = open('int_data.txt', 'w')
+in = open("float_data.txt","w")
+s = ""
 for i in (1000000):
-    print(randint(0, 100), file=output)
+    s += str(randint(0,100)) + " "
+ins.write(s)
+ins.close()    
