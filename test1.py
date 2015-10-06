@@ -26,6 +26,8 @@ class Libtest(unittest.TestCase):
         self.assertEqual(lib.palindrome('aaaaa'), True)
     def test_palindrome2_negative(self):
         self.assertEqual(lib.palindrome('aa'), True)
+    def test_palindrome3_negative(self):
+        self.assertEqual(lib.palindrome('a'), True)        
     def test_prime_negative(self):
         self.assertEqual(lib.prime(2), True)
         self.assertEqual(lib.prime(3), True)
